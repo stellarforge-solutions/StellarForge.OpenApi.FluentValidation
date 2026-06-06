@@ -1,0 +1,12 @@
+c:\Users\David\source\repos\StellarForge.OpenApi.FluentValidation\src\StellarForge.OpenApi.FluentValidation\bin\Debug\net10.0\StellarForge.OpenApi.FluentValidation.deps.json
+c:\Users\David\source\repos\StellarForge.OpenApi.FluentValidation\src\StellarForge.OpenApi.FluentValidation\bin\Debug\net10.0\StellarForge.OpenApi.FluentValidation.dll
+c:\Users\David\source\repos\StellarForge.OpenApi.FluentValidation\src\StellarForge.OpenApi.FluentValidation\bin\Debug\net10.0\StellarForge.OpenApi.FluentValidation.pdb
+c:\Users\David\source\repos\StellarForge.OpenApi.FluentValidation\src\StellarForge.OpenApi.FluentValidation\obj\Debug\net10.0\StellarForge.OpenApi.FluentValidation.csproj.AssemblyReference.cache
+c:\Users\David\source\repos\StellarForge.OpenApi.FluentValidation\src\StellarForge.OpenApi.FluentValidation\obj\Debug\net10.0\StellarForge.OpenApi.FluentValidation.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\David\source\repos\StellarForge.OpenApi.FluentValidation\src\StellarForge.OpenApi.FluentValidation\obj\Debug\net10.0\StellarForge.OpenApi.FluentValidation.AssemblyInfoInputs.cache
+c:\Users\David\source\repos\StellarForge.OpenApi.FluentValidation\src\StellarForge.OpenApi.FluentValidation\obj\Debug\net10.0\StellarForge.OpenApi.FluentValidation.AssemblyInfo.cs
+c:\Users\David\source\repos\StellarForge.OpenApi.FluentValidation\src\StellarForge.OpenApi.FluentValidation\obj\Debug\net10.0\StellarForge.OpenApi.FluentValidation.csproj.CoreCompileInputs.cache
+c:\Users\David\source\repos\StellarForge.OpenApi.FluentValidation\src\StellarForge.OpenApi.FluentValidation\obj\Debug\net10.0\StellarForge.OpenApi.FluentValidation.dll
+c:\Users\David\source\repos\StellarForge.OpenApi.FluentValidation\src\StellarForge.OpenApi.FluentValidation\obj\Debug\net10.0\refint\StellarForge.OpenApi.FluentValidation.dll
+c:\Users\David\source\repos\StellarForge.OpenApi.FluentValidation\src\StellarForge.OpenApi.FluentValidation\obj\Debug\net10.0\StellarForge.OpenApi.FluentValidation.pdb
+c:\Users\David\source\repos\StellarForge.OpenApi.FluentValidation\src\StellarForge.OpenApi.FluentValidation\obj\Debug\net10.0\ref\StellarForge.OpenApi.FluentValidation.dll

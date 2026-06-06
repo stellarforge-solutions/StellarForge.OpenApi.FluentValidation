@@ -1,0 +1,38 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.320.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72D-47B6-A68D-7590B98EB39B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0C88DD14-F956-CE84-757C-A364CCF449FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarForge.OpenApi.FluentValidation", "c:\Users\David\source\repos\StellarForge.OpenApi.FluentValidation\src\StellarForge.OpenApi.FluentValidation\StellarForge.OpenApi.FluentValidation.csproj", "{9CFA7C79-DB39-34D2-C076-5EEE10ED128A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarForge.OpenApi.FluentValidation.Tests", "c:\Users\David\source\repos\StellarForge.OpenApi.FluentValidation\test\StellarForge.OpenApi.FluentValidation.Tests\StellarForge.OpenApi.FluentValidation.Tests.csproj", "{7D9B1DA3-FAA0-70D0-0846-79566EE89698}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9CFA7C79-DB39-34D2-C076-5EEE10ED128A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CFA7C79-DB39-34D2-C076-5EEE10ED128A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CFA7C79-DB39-34D2-C076-5EEE10ED128A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CFA7C79-DB39-34D2-C076-5EEE10ED128A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D9B1DA3-FAA0-70D0-0846-79566EE89698}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D9B1DA3-FAA0-70D0-0846-79566EE89698}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D9B1DA3-FAA0-70D0-0846-79566EE89698}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D9B1DA3-FAA0-70D0-0846-79566EE89698}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9CFA7C79-DB39-34D2-C076-5EEE10ED128A} = {827E0CD3-B72D-47B6-A68D-7590B98EB39B}
+		{7D9B1DA3-FAA0-70D0-0846-79566EE89698} = {0C88DD14-F956-CE84-757C-A364CCF449FC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0BCC433E-5B5A-4912-9616-CD4E29F7DE26}
+	EndGlobalSection
+EndGlobal

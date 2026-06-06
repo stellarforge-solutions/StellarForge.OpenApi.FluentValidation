@@ -1,0 +1,12 @@
+using FluentValidation;
+using StellarForge.OpenApi.FluentValidation.Extensions;
+
+namespace StellarForge.OpenApi.FluentValidation.Tests.Support.ValidatorsForTest;
+
+internal class IPv6Validator : AbstractValidator<TestRequest>
+{
+    public IPv6Validator()
+    {
+        RuleFor(x => x.StringProperty).IPv6();
+    }
+}
