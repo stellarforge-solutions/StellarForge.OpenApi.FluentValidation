@@ -6,9 +6,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{827E0CD3-B72
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0C88DD14-F956-CE84-757C-A364CCF449FC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarForge.OpenApi.FluentValidation", "c:\Users\David\source\repos\StellarForge.OpenApi.FluentValidation\src\StellarForge.OpenApi.FluentValidation\StellarForge.OpenApi.FluentValidation.csproj", "{9CFA7C79-DB39-34D2-C076-5EEE10ED128A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarForge.OpenApi.FluentValidation", "src\StellarForge.OpenApi.FluentValidation\StellarForge.OpenApi.FluentValidation.csproj", "{9CFA7C79-DB39-34D2-C076-5EEE10ED128A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarForge.OpenApi.FluentValidation.Tests", "c:\Users\David\source\repos\StellarForge.OpenApi.FluentValidation\test\StellarForge.OpenApi.FluentValidation.Tests\StellarForge.OpenApi.FluentValidation.Tests.csproj", "{7D9B1DA3-FAA0-70D0-0846-79566EE89698}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StellarForge.OpenApi.FluentValidation.Tests", "test\StellarForge.OpenApi.FluentValidation.Tests\StellarForge.OpenApi.FluentValidation.Tests.csproj", "{7D9B1DA3-FAA0-70D0-0846-79566EE89698}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
