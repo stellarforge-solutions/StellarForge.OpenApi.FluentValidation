@@ -10,7 +10,8 @@ StellarForge.OpenApi.FluentValidation is a package that exposes the [FluentValid
 
 ![Build and publish](https://github.com/stellarforge-solutions/StellarForge.OpenApi.FluentValidation/workflows/Build%20and%20publish/badge.svg)
 [![Build status](https://ci.appveyor.com/api/projects/status/tcn613c0lqst33ot?svg=true)](https://ci.appveyor.com/project/stellarforge-solutions/stellarforge-openapi-fluentvalidation)
-[![Coverage Status](https://coveralls.io/github/stellarforge-solutions/StellarForge.OpenApi.FluentValidation/badge.svg)](https://coveralls.io/github/stellarforge-solutions/StellarForge.OpenApi.FluentValidation)
+![Coveralls](https://img.shields.io/coverallsCoverage/github/stellarforge-solutions/StellarForge.OpenApi.FluentValidation)
+
 
 
 ## Validator to OpenApi Spec Mapping (built-in FluentValidation validators)
