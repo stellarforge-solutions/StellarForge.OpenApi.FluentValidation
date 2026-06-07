@@ -25,12 +25,12 @@ jobs:
 
     # Run tests and export coverage report into 'lcov' format
     - name: Test and Collect Coverage
-      run: dotnet test --no-build --verbosity normal /p:CollectCoverage=true /p:CoverletOutput=TestResults/ /p:CoverletOutputFormat=lcov
+      run: dotnet test --no-build --collect:"XPlat Code Coverage;Format=lcov" --results-directory ./TestResults
 
     # Upload the lcov file using the official Coveralls Action
     - name: Upload to Coveralls
       uses: coverallsapp/github-action@v2
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        file: '**/TestResults/coverage.info' # Coverlet names the lcov file 'coverage.info'
+        file: './TestResults/**/coverage.info' # Coverlet generates a randomly named GUID folder in the TestResults directory containing the lcov file 'coverage.info'
         format: lcov
