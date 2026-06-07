@@ -32,5 +32,5 @@ jobs:
       uses: coverallsapp/github-action@v2
       with:
         github-token: ${{ secrets.GITHUB_TOKEN }}
-        file: '/TestResults/*/coverage.info' # Coverlet generates a random GUID folder in the TestResults directory and names the lcov file 'coverage.info'
+        file: '**/TestResults/*/coverage.info' # Coverlet generates a random GUID folder in the TestResults directory and names the lcov file 'coverage.info'
         format: lcov
