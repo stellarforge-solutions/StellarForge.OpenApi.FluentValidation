@@ -1,0 +1,43 @@
+name: Build and Publish .NET 10 NuGet Package
+
+on:
+  release:
+    types: [published] # Triggers when you create a new GitHub Release
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    
+    # Required permissions for OIDC Trusted Publishing
+    permissions:
+      id-token: write
+      contents: read
+
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v4
+
+    - name: Setup .NET 10 SDK
+      uses: actions/setup-dotnet@v4
+      with:
+        dotnet-version: '10.0.x' # Specifies the .NET 10 runtime environment
+
+    - name: Restore Dependencies
+      run: dotnet restore
+
+    - name: Build Project
+      run: dotnet build --configuration Release --no-restore
+
+    - name: Run Tests
+      run: dotnet test --configuration Release --no-build
+
+    - name: Pack NuGet Package
+      # Automatically packages the project using the version specified in your .csproj or GitHub release tag
+      run: dotnet pack --configuration Release --no-build --output ./artifacts
+
+    - name: Authenticate with NuGet (OIDC)
+      # Excharges the GitHub OIDC token for a short-lived NuGet API key
+      uses: NuGet/login@v1
+
+    - name: Push to NuGet.org
+      run: dotnet nuget push "./artifacts/*.nupkg" --source https://api.nuget.org/v3/index.json --skip-duplicate
