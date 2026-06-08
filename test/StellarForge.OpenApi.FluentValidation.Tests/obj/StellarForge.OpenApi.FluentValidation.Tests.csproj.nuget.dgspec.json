@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj": {}
+    "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj": {}
   },
   "projects": {
     "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj": {
@@ -366,14 +366,14 @@
         }
       }
     },
-    "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj": {
+    "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj",
         "projectName": "StellarForge.OpenApi.FluentValidation.Tests",
-        "projectPath": "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj",
+        "projectPath": "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\obj\\",
+        "outputPath": "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

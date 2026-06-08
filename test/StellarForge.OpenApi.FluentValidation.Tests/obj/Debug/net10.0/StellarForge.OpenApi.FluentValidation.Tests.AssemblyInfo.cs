@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("StellarForge.OpenApi.FluentValidation.Tests")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91b480280b06e9d95175f36e4b95186d99c9c3cc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a7f1ec88edc55c5a408a22789e5027db61e3d209")]
 [assembly: System.Reflection.AssemblyProductAttribute("StellarForge.OpenApi.FluentValidation.Tests")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StellarForge.OpenApi.FluentValidation.Tests")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

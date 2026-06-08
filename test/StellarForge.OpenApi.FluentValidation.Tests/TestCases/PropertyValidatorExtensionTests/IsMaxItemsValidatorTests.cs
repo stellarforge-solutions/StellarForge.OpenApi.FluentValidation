@@ -23,6 +23,13 @@ public class IsMaxItemsValidatorTests
     [Fact]
     public void IsMaxItemsValidator_False()
     {
-        Assert.False(PropertyValidatorExtensions.IsMaxItemsValidator(new IPv4Validator<TestRequest>(), out _));
+        var isMaxItemsValidator = PropertyValidatorExtensions.IsMaxItemsValidator
+        (
+            new IPv4Validator<TestRequest>(), 
+            out var actualMaxItems
+        );
+
+        Assert.False(isMaxItemsValidator);
+        Assert.Equal(default, actualMaxItems);
     }
 }

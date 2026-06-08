@@ -11,7 +11,7 @@
     <projectUrl>https://github.com/stellarforge-solutions/StellarForge.OpenApi.FluentValidation</projectUrl>
     <description>Exposes the FluentValidation rules of API endpoints to Microsoft.OpenApi</description>
     <copyright>Copyright (c) David Legge/StellarForge Solutions 2026</copyright>
-    <repository type="git" url="https://github.com/stellarforge-solutions/StellarForge.OpenApi.FluentValidation" branch="refs/heads/main" commit="91b480280b06e9d95175f36e4b95186d99c9c3cc" />
+    <repository type="git" url="https://github.com/stellarforge-solutions/StellarForge.OpenApi.FluentValidation" branch="refs/heads/main" commit="a7f1ec88edc55c5a408a22789e5027db61e3d209" />
     <dependencies>
       <group targetFramework="net10.0">
         <dependency id="FluentValidation" version="12.1.1" exclude="Build,Analyzers" />

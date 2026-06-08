@@ -3,7 +3,6 @@ using FluentValidation.Validators;
 using Microsoft.AspNetCore.OpenApi;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi;
-using StellarForge.OpenApi.FluentValidation.Extensions;
 using StellarForge.OpenApi.FluentValidation.Validators;
 using System.Text.Json.Nodes;
 using static StellarForge.OpenApi.FluentValidation.Constants;
@@ -15,7 +14,7 @@ public class RequestValidationTransformer<TValidator, TRequest> : IOpenApiOperat
 {
     public Task TransformAsync(OpenApiOperation operation, OpenApiOperationTransformerContext context, CancellationToken cancellationToken)
     {
-        if (context.ApplicationServices.GetRequiredService<TValidator>() is not AbstractValidator<TRequest> validator) return Task.CompletedTask;
+        if (context.ApplicationServices.GetService<TValidator>() is not AbstractValidator<TRequest> validator) return Task.CompletedTask;
 
         var parameterRules = (operation.Parameters ?? [])
             .Join(validator, parameter => parameter.Name, rule => rule.PropertyName, (parameter, rule) => (parameter.Schema as OpenApiSchema, rule))

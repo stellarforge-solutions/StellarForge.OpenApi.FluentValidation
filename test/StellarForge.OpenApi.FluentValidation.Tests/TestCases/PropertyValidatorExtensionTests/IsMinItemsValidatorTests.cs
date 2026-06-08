@@ -23,6 +23,13 @@ public class IsMinItemsValidatorTests
     [Fact]
     public void IsMinItemsValidator_False()
     {
-        Assert.False(PropertyValidatorExtensions.IsMinItemsValidator(new IPv4Validator<TestRequest>(), out _));
+        var isMinItemsValidator = PropertyValidatorExtensions.IsMinItemsValidator
+        (
+            new IPv4Validator<TestRequest>(), 
+            out var actualMinItems
+        );
+
+        Assert.False(isMinItemsValidator);
+        Assert.Equal(default, actualMinItems);
     }
 }
