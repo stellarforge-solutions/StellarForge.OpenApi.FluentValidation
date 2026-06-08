@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "5Czu1orQGbs=",
+  "dgSpecHash": "RB0t2EzxiXs=",
   "success": true,
-  "projectFilePath": "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj",
+  "projectFilePath": "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\David\\.nuget\\packages\\coverlet.collector\\10.0.1\\coverlet.collector.10.0.1.nupkg.sha512",
     "C:\\Users\\David\\.nuget\\packages\\fluentvalidation\\12.1.1\\fluentvalidation.12.1.1.nupkg.sha512",

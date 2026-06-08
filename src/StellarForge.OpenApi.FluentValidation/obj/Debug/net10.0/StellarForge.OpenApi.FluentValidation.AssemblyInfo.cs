@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCopyrightAttribute("Copyright (c) David Legge/StellarForge Solutions 2026")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Exposes the FluentValidation rules of API endpoints to Microsoft.OpenApi")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ee0ef5c3e8a8b1147b1181f45613b79f50b9e68")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+91b480280b06e9d95175f36e4b95186d99c9c3cc")]
 [assembly: System.Reflection.AssemblyProductAttribute("StellarForge.OpenApi.FluentValidation")]
 [assembly: System.Reflection.AssemblyTitleAttribute("StellarForge.OpenApi.FluentValidation")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
