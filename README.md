@@ -8,8 +8,7 @@ StellarForge.OpenApi.FluentValidation is a package that exposes the [FluentValid
 [![NuGetVersion](https://img.shields.io/nuget/v/StellarForge.OpenApi.FluentValidation.svg)](https://www.nuget.org/packages/StellarForge.OpenApi.FluentValidation)
 ![NuGetDownloads](https://img.shields.io/nuget/dt/StellarForge.OpenApi.FluentValidation.svg)
 
-![Build and publish](https://github.com/stellarforge-solutions/StellarForge.OpenApi.FluentValidation/workflows/Build%20and%20publish/badge.svg)
-[![Build status](https://ci.appveyor.com/api/projects/status/tcn613c0lqst33ot?svg=true)](https://ci.appveyor.com/project/stellarforge-solutions/stellarforge-openapi-fluentvalidation)
+[![Build status](https://github.com/stellarforge-solutions/StellarForge.OpenApi.FluentValidation/actions/workflows/build_and_publish.yml/badge.svg)](https://github.com/stellarforge-solutions/StellarForge.OpenApi.FluentValidation/actions/workflows/build_and_publish.yml)
 ![Coveralls](https://img.shields.io/coverallsCoverage/github/stellarforge-solutions/StellarForge.OpenApi.FluentValidation)
 
 

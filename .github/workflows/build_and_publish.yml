@@ -1,4 +1,4 @@
-name: Build and Publish .NET 10 NuGet Package
+name: Build and Publish
 
 on:
   release:
@@ -16,6 +16,8 @@ jobs:
     steps:
     - name: Checkout Code
       uses: actions/checkout@v4
+      with:
+        fetch-depth: 0 # CRITICAL: MinVer requires full git history and tags to calculate version
 
     - name: Setup .NET 10 SDK
       uses: actions/setup-dotnet@v4
@@ -26,14 +28,14 @@ jobs:
       run: dotnet restore
 
     - name: Build Project
-      run: dotnet build --configuration Release --no-restore
+      run: dotnet build --configuration Release
 
     - name: Run Tests
-      run: dotnet test --configuration Release --no-build
+      run: dotnet test --configuration Release
 
     - name: Pack NuGet Package
       # Automatically packages the project using the version specified in your .csproj or GitHub release tag
-      run: dotnet pack --configuration Release --no-build --output ./artifacts
+      run: dotnet pack --configuration Release --output ./artifacts
 
     - name: Authenticate with NuGet (OIDC)
       # Excharges the GitHub OIDC token for a short-lived NuGet API key
