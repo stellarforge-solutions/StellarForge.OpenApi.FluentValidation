@@ -3,7 +3,6 @@
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
 	<PackageId>StellarForge.OpenApi.FluentValidation</PackageId>
-	<PackageVersion>0.1.0-rc1</PackageVersion>
 	<Authors>David Legge</Authors>
 	<Description>Exposes the FluentValidation rules of API endpoints to Microsoft.OpenApi</Description>
 	<Copyright>Copyright (c) David Legge/StellarForge Solutions 2026</Copyright>
@@ -32,7 +31,8 @@
     <PackageReference Include="FluentValidation" Version="12.1.1" />
     <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="12.1.1" />
     <PackageReference Include="JsonPointer.Net" Version="7.0.1" />
-    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.5" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.8" />
+	<PackageReference Include="MinVer" Version="7.0.0" PrivateAssets="all" />
   </ItemGroup>
 
   <ItemGroup>

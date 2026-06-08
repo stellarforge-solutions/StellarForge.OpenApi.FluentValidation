@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj": {}
+    "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj": {}
   },
   "projects": {
-    "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj": {
-      "version": "0.1.0-rc1",
+    "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj",
+        "projectUniqueName": "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj",
         "projectName": "StellarForge.OpenApi.FluentValidation",
-        "projectPath": "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj",
+        "projectPath": "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\obj\\",
+        "outputPath": "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -64,7 +64,12 @@
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[10.0.5, )"
+              "version": "[10.0.8, )"
+            },
+            "MinVer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [

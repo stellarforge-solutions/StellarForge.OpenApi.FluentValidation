@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj": {}
+    "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj": {}
   },
   "projects": {
-    "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj": {
-      "version": "0.1.0-rc1",
+    "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj": {
+      "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj",
+        "projectUniqueName": "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj",
         "projectName": "StellarForge.OpenApi.FluentValidation",
-        "projectPath": "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj",
+        "projectPath": "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\obj\\",
+        "outputPath": "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -64,7 +64,12 @@
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
-              "version": "[10.0.5, )"
+              "version": "[10.0.8, )"
+            },
+            "MinVer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.0, )"
             }
           },
           "imports": [
@@ -361,14 +366,14 @@
         }
       }
     },
-    "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj": {
+    "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj",
         "projectName": "StellarForge.OpenApi.FluentValidation.Tests",
-        "projectPath": "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj",
+        "projectPath": "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\StellarForge.OpenApi.FluentValidation.Tests.csproj",
         "packagesPath": "C:\\Users\\David\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\obj\\",
+        "outputPath": "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\test\\StellarForge.OpenApi.FluentValidation.Tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -389,8 +394,8 @@
           "net10.0": {
             "targetAlias": "net10.0",
             "projectReferences": {
-              "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj": {
-                "projectPath": "c:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj"
+              "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj": {
+                "projectPath": "C:\\Users\\David\\source\\repos\\StellarForge.OpenApi.FluentValidation\\src\\StellarForge.OpenApi.FluentValidation\\StellarForge.OpenApi.FluentValidation.csproj"
               }
             }
           }
@@ -413,19 +418,23 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.14.1, )"
+              "version": "[18.6.0, )"
             },
             "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.4, )"
+              "version": "[10.0.1, )"
             },
             "xunit": {
               "target": "Package",
               "version": "[2.9.3, )"
             },
             "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.4, )"
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
